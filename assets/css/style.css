@@ -139,8 +139,9 @@ ul {
 #list {
     position: absolute;
     display: flex;
+    top: 30px;
+    left: 90px;
     bottom: 0;
-    left: 0vw;
 }
 
 #list > li {
@@ -345,7 +346,7 @@ ul {
 }
 
 h3.hello {
-    font-size: 28px;
+    font-size: 25px;
     margin: 15px 0;
 }
 
@@ -378,7 +379,7 @@ h3.my-profession {
     position: relative;
 }
 
-.home-img::after {
+/*.home-img::after {
     content: '';
     position: absolute;
     height: 80px;
@@ -398,7 +399,7 @@ h3.my-profession {
     border-left: 10px solid var(--skin-color);
     left: -20px;
     top: -40px;
-}
+}*/
 
 .home .home-img img {
     margin: auto;
