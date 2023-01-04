@@ -1,0 +1,44 @@
+.icon_boom{
+    -webkit-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+}
+.icon_boom:hover{
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+    cursor: pointer;
+}
+#fold_1:before{
+    content: " ";
+    position: absolute;
+    left: 120%;
+    width: 120%;
+    height: 120%;
+    background: linear-gradient(90deg,transparent 0%,white 5%,white 100%);
+    animation: animate 3s linear forwards infinite;
+}
+@keyframes animate {
+    0% {
+        left: 120%;
+    }
+    100% {
+        left: -20%;
+    }
+}
+#fold_2:before{
+    content: " ";
+    position: absolute;
+    z-index: 10;
+    right: 120%;
+    width: 120%;
+    height: 120%;
+    background: linear-gradient(90deg,transparent 0%,#6270A3 5%,#6270A3 100%);
+    animation: ani 5s linear forwards infinite;
+}
+@keyframes ani {
+    0% {
+        right: 120%;
+    }
+    100% {
+        right: -10%;
+    }
+}
